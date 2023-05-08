@@ -74,25 +74,10 @@ hr {
     animation: jump 3.5s infinite ease-in-out;  
 }
 
-#img{
-    animation: rotate 10.5s infinite ease-in-out; 
-}
-
 #carousel-control-next-icon{
     background-color: black;
 }
 
-/* @keyframes jump {
-    25% {
-      transform: translateY(-90px) rotate(-25deg);
-    }
-    75% {
-      transform: translateY(-90px) translateX(150px) rotate(25deg);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }  */
 
 .testimonials{
     margin-top: 5.8rem;
@@ -118,4 +103,17 @@ hr {
 
 .lect-h1 {
     text-align: center;
+    width: 25rem;
+    font-size: 350%;
+    transform: translateX(50rem) translateY(8rem);
+}
+
+#main_div_vid,#main_div_vid2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe{
+    padding: 2rem 2rem;
 }
